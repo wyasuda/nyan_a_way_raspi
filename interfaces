@@ -1,0 +1,3 @@
+allow-hotplug wwan0
+iface wwan0 inet ppp
+    provider rokemoba_ak-020
