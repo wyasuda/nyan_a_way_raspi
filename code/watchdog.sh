@@ -10,6 +10,6 @@ do
 
   nyan_a_way_alive=`ps -ef | grep nyan_a_way.py | grep -v grep | wc -l`
   if [ $nyan_a_way_alive -eq 0 ]; then
-    /home/pi/nyan_a_way.py &
+    /home/pi/nyan_a_way_raspi/code/nyan_a_way.py &
   fi
 done
